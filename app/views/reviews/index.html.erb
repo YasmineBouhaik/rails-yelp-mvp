@@ -1,0 +1,5 @@
+<ul>
+  <% @reviews.each do |restaurant| %>
+    <li><%= link_to restaurant.content %><%= restaurant.rating %></li>
+  <% end %>
+</ul>
